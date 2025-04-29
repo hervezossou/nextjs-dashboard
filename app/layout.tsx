@@ -1,5 +1,5 @@
 import "@/app/ui/global.css";
-import { dmSans } from "@/app/ui/font";
+import { dmSans } from "@/app/ui/fonts";
 
 export default function RootLayout({
   children,
