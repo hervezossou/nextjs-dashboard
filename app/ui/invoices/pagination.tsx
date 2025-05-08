@@ -5,7 +5,6 @@ import clsx from 'clsx';
 import Link from 'next/link';
 import { generatePagination } from '@/app/lib/utils';
 import { useSearchParams, usePathname } from 'next/navigation';
-import { useDebouncedCallback } from 'use-debounce';
 
 export default function Pagination({ totalPages }: { totalPages: number }) {
   // NOTE: Uncomment this code in Chapter 11
